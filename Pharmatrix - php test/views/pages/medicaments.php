@@ -1,0 +1,1 @@
+<h2 style=" color: black; text-align: center; padding: 30vh 10vw 25vh 10vw;">Tout les medicaments</h2>

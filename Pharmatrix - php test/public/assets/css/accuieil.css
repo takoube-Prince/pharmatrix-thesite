@@ -1,0 +1,152 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5vh 5vw;
+}
+
+nav .icon i{
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.logo img{
+    width: 100PX;
+    height: 40px;
+}
+
+.content > *{
+    position: relative;
+    z-index: 2;
+}
+
+.content .devise{
+    display: flex;
+    color: white;
+    font-weight: bold;
+    padding-top: 12vh;
+    margin-bottom: 12vh;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.content .search{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1vh 1vw;
+    margin-bottom: 12vh;
+}
+
+.content .search input{
+    padding: 1vh 1vw;
+    width: 95%;
+    border: none;
+    outline: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content .search i{
+    font-size: 20px;
+    color: #8A8A8A;
+    margin-left: 10px;
+}
+
+.drugs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.drugs div{
+    width: 130px;
+    height: 100px;
+    background-color: white;
+}
+
+.para{
+    background-image: url("../images/para.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.doli{
+    background-image: url("../images/doli.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.maal{
+    background-image: url("../images/maal.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.effer{
+    background-image: url("../images/effer.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.info{
+    background-color: #262626;
+    color: white;
+    padding: 7vh 5vw 0vh 5vw;
+
+}
+
+.info .info_content {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    flex-wrap: wrap;
+    padding: 0 0 5vh 0;
+}
+
+.info .info_content .slogan{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    gap: 15px;
+}
+
+.info .info_content .reseaux{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-family: "Tenor Sans", sans-serif;
+    color: #BFBFBF;
+}
+
+.info .info_content .reseaux .sociaux div{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 500;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+footer{
+    padding: 0 5vw 1vh 5vw;
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    color: #D0D0D0;
+    font-size: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Page Tout les medicaments */
