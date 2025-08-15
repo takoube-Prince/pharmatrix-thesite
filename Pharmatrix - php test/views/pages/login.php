@@ -13,7 +13,7 @@
         <div class="container">
             <form action="" method="post">
                 <div class="logo">
-                    <img src="../../public/assets/images/pharmatrix_form.jpg" alt="">
+                    <a href="/"><img src="../../public/assets/images/pharmatrix_form.jpg" alt=""></a>
                 </div>
                 <div class="connexion">
                     <a href="/login">Connexion</a>

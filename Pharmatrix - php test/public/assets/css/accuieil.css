@@ -9,7 +9,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0.5vh 5vw;
+    padding: 5px 5vw;
 }
 
 nav .icon i{
@@ -31,22 +31,26 @@ nav .icon i{
     display: flex;
     color: white;
     font-weight: bold;
-    padding-top: 12vh;
-    margin-bottom: 12vh;
+    padding-top: 80px;
+    margin-bottom: 80px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.content .search{
+.content a{
+    text-decoration: none;
+}
+
+.search{
     background-color: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1vh 1vw;
-    margin-bottom: 12vh;
+    padding: 10px 1vw;
+    margin-bottom: 80px;
 }
 
-.content .search input{
-    padding: 1vh 1vw;
+.search input{
+    padding: 5px 1vw;
     width: 95%;
     border: none;
     outline: none;
@@ -64,12 +68,6 @@ nav .icon i{
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 20px;
-}
-
-.drugs div{
-    width: 130px;
-    height: 100px;
-    background-color: white;
 }
 
 .para{
@@ -99,7 +97,7 @@ nav .icon i{
 .info{
     background-color: #262626;
     color: white;
-    padding: 7vh 5vw 0vh 5vw;
+    padding: 45px 5vw 0px 5vw;
 
 }
 
@@ -108,7 +106,7 @@ nav .icon i{
     justify-content: space-between;
     gap: 50px;
     flex-wrap: wrap;
-    padding: 0 0 5vh 0;
+    padding: 0 0 15px 0;
 }
 
 .info .info_content .slogan{
@@ -140,7 +138,7 @@ nav .icon i{
 }
 
 footer{
-    padding: 0 5vw 1vh 5vw;
+    padding: 0 5vw 10px 5vw;
     display: flex;
     justify-content: center;
     justify-content: center;
@@ -150,3 +148,89 @@ footer{
 }
 
 /* Page Tout les medicaments */
+.tous{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: green;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.para, .doli, .effer, .maal{
+    width: 130px;
+    height: 100px;
+}
+
+.medic_container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.medic_same{
+    display: flex;
+    width: 500px;
+    gap: 40px;
+    flex: 1 0 auto;
+}
+
+.medic_same p span{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 530px){
+    .medic_same{
+        width: 300px;
+    }
+
+    .medic_same p{
+        width: 70% !important;
+    }
+}
+@media screen and (max-width: 340px){
+    .medic_same{
+        width: 230px !important;
+    }
+
+    .medic_same p{
+        width: 40% !important;
+        overflow: hidden;
+    }
+
+}
+
+
+/* Page Rechercher un medicament */
+.voir_tout, .voir_tout a{
+    display: flex;
+    justify-content: center;
+    color: black;
+    margin-bottom: 5px;
+    text-decoration: underline !important;
+}
+
+.barre_rechercher{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border: 2px solid #959595;
+}
+
+.barre_rechercher input{
+    padding: 1vh 1vw;
+    width: 95%;
+    border: none;
+    outline: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.barre_rechercher i{
+    font-size: 30px;
+    color: #959595;
+}

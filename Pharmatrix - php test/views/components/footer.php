@@ -1,7 +1,7 @@
 <div class="info_content">
     <div class="slogan">
         <div class="logo">
-            <img src="../../public/assets/images/pharmatrix.jpg" alt="">
+            <a href="/"><img src="../../public/assets/images/pharmatrix.jpg" alt=""></a>
         </div>
         <div class="slogan_content">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem perspiciatis, molestiae itaque possimus et minima aliquam, veritatis cum quos id mollitia consequatur atque placeat alias nisi ullam voluptates fugiat. Officia?</p>

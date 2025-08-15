@@ -63,7 +63,7 @@ form .logo img{
 
 .mini{
     border: 1px solid #C6C6C6;
-    padding: 7px 5px 5px 5px;
+    padding: 15px 8px 8px 8px;
     flex: 1 0 auto;
 }
 
@@ -72,7 +72,7 @@ form .logo img{
     margin-bottom: 10px;
     border: 1px solid #C6C6C6;
     gap: 10px;
-    padding: 8px 5px 5px 5px;
+    padding: 15px 8px 8px 8px;
 }
 
 input{

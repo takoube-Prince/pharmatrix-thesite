@@ -97,8 +97,12 @@ if(array_key_exists($request_uri, $routes)){
 
         <div class="content">
             <?php
-                include "views/pages/{$page}.php";
-            ?>
+                if ($page === '404') {
+                    echo '<h2>404 - Page non trouvée</h2>';
+                } else {
+                    include "views/pages/{$page}.php";
+                }
+                ?>
         </div>
 
         <div class="info">
